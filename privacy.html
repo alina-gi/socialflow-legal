@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy Policy for SocialFlow AI Publisher, including its TikTok-connected workflow.">
+    <meta name="theme-color" content="#07171a">
+    <title>Privacy Policy — SocialFlow AI Publisher</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell nav-wrap">
+        <a class="brand" href="./" aria-label="SocialFlow AI Publisher home"><span class="brand-mark" aria-hidden="true">S</span><span>SocialFlow <em>AI Publisher</em></span></a>
+        <nav aria-label="Primary navigation">
+          <a href="./">Home</a>
+          <a href="terms.html">Terms</a>
+          <a aria-current="page" href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="legal-page">
+      <header class="legal-hero shell">
+        <p class="eyebrow"><span></span> Legal</p>
+        <h1>Privacy Policy</h1>
+        <p class="legal-summary">This policy explains the TikTok-related information processed by the current local SocialFlow workflow and the data practices of this static website.</p>
+        <div class="legal-meta"><span>Effective November 3, 2026</span><span>Version 1.0</span></div>
+      </header>
+
+      <div class="shell legal-layout">
+        <aside class="legal-nav" aria-label="Privacy sections">
+          <p>On this page</p>
+          <a href="#scope">1. Scope</a>
+          <a href="#website">2. This website</a>
+          <a href="#information">3. Information</a>
+          <a href="#use">4. How it is used</a>
+          <a href="#movement">5. How data moves</a>
+          <a href="#storage">6. Storage &amp; retention</a>
+          <a href="#disclosure">7. Disclosures</a>
+          <a href="#choices">8. Your choices</a>
+          <a href="#security">9. Security</a>
+          <a href="#children">10. Children</a>
+          <a href="#changes">11. Changes</a>
+          <a href="#contact">12. Contact</a>
+        </aside>
+
+        <article class="legal-content">
+          <section id="scope">
+            <h2><span>1</span>Scope</h2>
+            <p>This Privacy Policy covers the public SocialFlow AI Publisher website and the TikTok-related workflow described for the current locally operated SocialFlow application. It does not replace TikTok's own privacy notice or describe TikTok's independent processing.</p>
+            <p>The application is in private testing. If its providers, data flows, audience, or production features change, this policy must be updated before those changes are offered for public use.</p>
+          </section>
+
+          <section id="website">
+            <h2><span>2</span>This static website</h2>
+            <p>We do not add analytics, advertising scripts, account forms, or first-party tracking cookies to this website. The site is served through GitHub Pages. GitHub may process technical request information, such as IP address, browser details, and access logs, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub General Privacy Statement</a>.</p>
+            <p>This website does not connect to your TikTok account and cannot access application credentials or account content.</p>
+          </section>
+
+          <section id="information">
+            <h2><span>3</span>Information processed by the TikTok workflow</h2>
+            <p>The current implementation may process the following information when an authorized operator uses the local application:</p>
+            <div class="data-list">
+              <div><h3>Authorization data</h3><p>OAuth authorization code, security state, access token, refresh token, expiration information, and the redirect address used for the connection.</p></div>
+              <div><h3>Basic TikTok account data</h3><p>Fields TikTok returns with the user's authorization, such as a unique account identifier, display name, or avatar.</p></div>
+              <div><h3>Creator and posting options</h3><p>Information TikTok returns about available creator posting capabilities and privacy or interaction choices.</p></div>
+              <div><h3>Selected content</h3><p>Video, caption, and posting choices selected by the operator if an upload or publishing feature is enabled and the operator initiates it.</p></div>
+            </div>
+            <p>SocialFlow requests the TikTok scopes <code>user.info.basic</code>, <code>video.upload</code>, and <code>video.publish</code> for the reviewed workflow. TikTok shows requested permissions during authorization.</p>
+          </section>
+
+          <section id="use">
+            <h2><span>4</span>How information is used</h2>
+            <p>The described TikTok data is used to:</p>
+            <ul>
+              <li>start and complete the user-authorized OAuth connection;</li>
+              <li>validate the authorization response and reduce replay or cross-brand errors;</li>
+              <li>identify the connected account and display authorized creator posting options;</li>
+              <li>refresh access when TikTok permits it;</li>
+              <li>send content to TikTok only when the operator initiates a supported upload or publish action; and</li>
+              <li>diagnose connection, security, or publishing errors in the local environment.</li>
+            </ul>
+          </section>
+
+          <section id="movement">
+            <h2><span>5</span>How TikTok data moves</h2>
+            <p>The operator begins authorization in a browser on TikTok. TikTok returns an authorization result to the configured callback. The local application exchanges an authorized code with TikTok's API, stores the resulting credentials locally, and uses them for the scopes approved by the user.</p>
+            <p>When an operator initiates an upload or publish action, the selected content and posting choices are transmitted to TikTok. It would therefore be inaccurate to say that all TikTok-related data always remains on the device.</p>
+          </section>
+
+          <section id="storage">
+            <h2><span>6</span>Local storage and retention</h2>
+            <p>TikTok credentials are stored in a TikTok-specific encrypted vault on the operator's device, with local encryption key material. TikTok and Meta credentials are held in separate vaults. OAuth state records are designed to expire and be used only once.</p>
+            <p>Access and refresh tokens remain in local storage until they expire, are replaced, or are removed from the local environment. Revoking SocialFlow in TikTok stops future authorized access but may not by itself erase existing local files. Selected content remains subject to the local files and settings controlled by the operator and, once transmitted, to TikTok's own retention practices.</p>
+          </section>
+
+          <section id="disclosure">
+            <h2><span>7</span>When information is disclosed</h2>
+            <p>TikTok-related information is sent to TikTok as needed to authenticate, read authorized account capabilities, and complete an action the operator initiates. GitHub processes technical request data to deliver this public website.</p>
+            <p>This policy does not claim that an optional AI provider or other integration is active. Before any feature sends prompts, media, or account information to an additional provider in production, the provider and relevant data practices must be confirmed and this policy updated where required.</p>
+            <p>Information may also be preserved or disclosed when required by applicable law, or when reasonably necessary to protect users, accounts, the Service, or others from fraud, abuse, or security threats.</p>
+          </section>
+
+          <section id="choices">
+            <h2><span>8</span>Your choices and controls</h2>
+            <ul>
+              <li><strong>Do not connect:</strong> You may decline TikTok's authorization request.</li>
+              <li><strong>Choose the action:</strong> An upload or publish flow begins only after an operator selects it.</li>
+              <li><strong>Revoke access:</strong> You may revoke SocialFlow's access from TikTok's account settings.</li>
+              <li><strong>Remove local data:</strong> The operator may remove SocialFlow's local application data and encrypted credential vault from the device. Back up anything that must be retained before deletion.</li>
+              <li><strong>Ask a question:</strong> Use the contact route below for an access, correction, or deletion question. Do not place personal information in a public issue.</li>
+            </ul>
+            <p>Your legal privacy rights may differ by location. We will evaluate a verified request under the law that applies to it.</p>
+          </section>
+
+          <section id="security">
+            <h2><span>9</span>Security</h2>
+            <p>The described safeguards include encrypted local credential storage, separate platform vaults, expiring single-use OAuth state, and brand-bound state validation. The public legal repository is kept separate from the private application and is not intended to contain credentials or account content.</p>
+            <p>No system is completely secure. Protect the operating device, restrict local access, keep software current, and revoke platform authorization if you believe a credential or device has been compromised.</p>
+          </section>
+
+          <section id="children">
+            <h2><span>10</span>Children</h2>
+            <p>SocialFlow is not directed to children. It is intended for an authorized operator who is eligible to manage the connected platform account. Do not use the Service to process a child's personal information without all permissions and protections required by law and platform rules.</p>
+          </section>
+
+          <section id="changes">
+            <h2><span>11</span>Changes to this policy</h2>
+            <p>We may update this policy when the Service, its integrations, or legal requirements change. The current version will be posted here with a revised effective date.</p>
+          </section>
+
+          <section id="contact">
+            <h2><span>12</span>Contact</h2>
+            <p>Contact the SocialFlow operator through the <a href="https://github.com/alina-gi" rel="noopener">repository owner profile</a>. You may open a <a href="https://github.com/alina-gi/socialflow-legal/issues/new?title=Privacy%20contact%20request" rel="noopener">minimal privacy contact request</a> asking for a private follow-up. Do not include personal data, TikTok identifiers, credentials, or confidential information in a public GitHub issue.</p>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div><a class="brand footer-brand" href="./"><span class="brand-mark" aria-hidden="true">S</span><span>SocialFlow <em>AI Publisher</em></span></a><p>A locally operated, review-first publishing workflow.</p></div>
+        <div class="footer-links"><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a><a href="./#contact">Contact</a></div>
+      </div>
+      <div class="shell footer-bottom"><span>© 2026 SocialFlow AI Publisher</span><span>Last updated November 3, 2026</span></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SocialFlow AI Publisher is a locally operated workflow for connecting an authorized TikTok account, reviewing publishing capabilities, and preparing content for posting.">
+    <meta name="theme-color" content="#07171a">
+    <meta property="og:title" content="SocialFlow AI Publisher">
+    <meta property="og:description" content="A review-first, locally operated social publishing workflow.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alina-gi.github.io/socialflow-legal/">
+    <title>SocialFlow AI Publisher</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell nav-wrap">
+        <a class="brand" href="./" aria-label="SocialFlow AI Publisher home">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span>SocialFlow <em>AI Publisher</em></span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a aria-current="page" href="./">Home</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Local-first social publishing</p>
+          <h1>Review every step.<br><strong>Publish with intent.</strong></h1>
+          <p class="lede">SocialFlow AI Publisher is a locally operated workflow for an authorized user to connect a TikTok account, review posting capabilities, prepare content, and initiate an upload or publish action.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#workflow">See how it works</a>
+            <a class="button quiet" href="privacy.html">Read our data practices</a>
+          </div>
+          <p class="status-line"><span aria-hidden="true"></span><strong>Current status:</strong> private testing; live publishing remains disabled while platform review is in progress.</p>
+        </div>
+        <div class="flow-card" aria-label="SocialFlow workflow overview">
+          <div class="flow-top">
+            <span class="flow-label">PUBLISHING FLOW</span>
+            <span class="local-badge">LOCAL</span>
+          </div>
+          <ol class="mini-flow">
+            <li><b>01</b><span><strong>Connect</strong><small>User-controlled OAuth</small></span></li>
+            <li><b>02</b><span><strong>Review</strong><small>Identity &amp; posting options</small></span></li>
+            <li><b>03</b><span><strong>Prepare</strong><small>Content checked locally</small></span></li>
+            <li><b>04</b><span><strong>Initiate</strong><small>Upload or publish by choice</small></span></li>
+          </ol>
+          <p class="flow-note">No public signup. No background posting from this website.</p>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Key product principles">
+        <div class="shell trust-grid">
+          <div><span>01</span><p><strong>Permission-led</strong>User approves requested TikTok scopes.</p></div>
+          <div><span>02</span><p><strong>Review-first</strong>Content is checked before an action begins.</p></div>
+          <div><span>03</span><p><strong>Separated</strong>TikTok and Meta credentials use separate vaults.</p></div>
+        </div>
+      </section>
+
+      <section class="section shell" id="workflow">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow"><span></span> The workflow</p>
+            <h2>From connection to an intentional action.</h2>
+          </div>
+          <p>SocialFlow is designed for an operator who controls the connected account. TikTok access starts with OAuth, and an upload or publish action starts only after the operator chooses it.</p>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-number">01</span>
+            <h3>Connect the right account</h3>
+            <p>TikTok presents the permissions requested by SocialFlow. The user decides whether to authorize them and may revoke access through TikTok.</p>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <h3>Confirm posting options</h3>
+            <p>The local app reads the authorized account identity and creator posting capabilities so the operator can review the destination and available choices.</p>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <h3>Prepare and review</h3>
+            <p>The operator selects content and checks any caption, audience, or platform options before an upload or publish request is sent.</p>
+          </li>
+          <li>
+            <span class="step-number">04</span>
+            <h3>Initiate the action</h3>
+            <p>When production publishing is enabled, the operator may choose to send content to TikTok as a draft or initiate a direct post, subject to TikTok's controls.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section permissions-section">
+        <div class="shell">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow"><span></span> TikTok permissions</p>
+              <h2>Only the scopes needed for the reviewed workflow.</h2>
+            </div>
+            <p>Permission names are shown as they appear in TikTok's developer platform. Authorization is controlled by the TikTok user.</p>
+          </div>
+          <div class="permission-grid">
+            <article>
+              <code>user.info.basic</code>
+              <h3>Identify the connected account</h3>
+              <p>Used to retrieve basic profile fields that TikTok returns with the user's authorization, such as an account identifier, display name, or avatar.</p>
+            </article>
+            <article>
+              <code>video.upload</code>
+              <h3>Send content as a draft</h3>
+              <p>Used when the operator explicitly chooses an upload flow that sends selected content to TikTok for completion there.</p>
+            </article>
+            <article>
+              <code>video.publish</code>
+              <h3>Initiate a direct post</h3>
+              <p>Used only when the operator explicitly chooses a direct publishing action and the feature is approved and enabled.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow"><span></span> Data &amp; safety</p>
+            <h2>Public information here. Private credentials there.</h2>
+          </div>
+          <p>This GitHub Pages site is deliberately separate from the private SocialFlow application. It contains product information and legal notices, not application code, credentials, access tokens, or account content.</p>
+        </div>
+        <div class="safety-grid">
+          <article class="safety-feature">
+            <span class="icon" aria-hidden="true">◇</span>
+            <h3>Encrypted local credential vault</h3>
+            <p>TikTok OAuth credentials are stored in an encrypted vault on the operator's device. Encryption key material is also held locally.</p>
+          </article>
+          <article class="safety-feature">
+            <span class="icon" aria-hidden="true">↯</span>
+            <h3>Short-lived OAuth state</h3>
+            <p>The authorization flow uses expiring, single-use state validation to help prevent replay and cross-brand mix-ups.</p>
+          </article>
+          <article class="safety-feature">
+            <span class="icon" aria-hidden="true">∥</span>
+            <h3>Platform separation</h3>
+            <p>TikTok and Meta credentials are kept in different vaults. This public repository contains neither.</p>
+          </article>
+          <article class="safety-feature">
+            <span class="icon" aria-hidden="true">○</span>
+            <h3>No site analytics</h3>
+            <p>This static site adds no analytics, advertising scripts, account forms, or first-party tracking cookies.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section control-section">
+        <div class="shell control-grid">
+          <div>
+            <p class="eyebrow light"><span></span> User control</p>
+            <h2>The connected user stays in charge.</h2>
+          </div>
+          <ul class="check-list">
+            <li>Review TikTok's permission screen before connecting.</li>
+            <li>Choose the content and posting action.</li>
+            <li>Revoke SocialFlow access from TikTok's settings.</li>
+            <li>Stop local use without using this public website.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section shell contact-section" id="contact">
+        <div>
+          <p class="eyebrow"><span></span> Contact</p>
+          <h2>Questions about SocialFlow?</h2>
+          <p>Contact the operator through the repository owner profile. For a support or privacy request, open only a minimal contact request and do not place personal data, account identifiers, or confidential information in a public GitHub issue.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://github.com/alina-gi" rel="noopener">Operator profile</a>
+          <a class="button quiet" href="https://github.com/alina-gi/socialflow-legal/issues/new?title=Contact%20request" rel="noopener">Request contact</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand footer-brand" href="./"><span class="brand-mark" aria-hidden="true">S</span><span>SocialFlow <em>AI Publisher</em></span></a>
+          <p>A locally operated, review-first publishing workflow.</p>
+        </div>
+        <div class="footer-links">
+          <a href="terms.html">Terms of Service</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <span>© 2026 SocialFlow AI Publisher</span>
+        <span>Last updated November 3, 2026</span>
+      </div>
+    </footer>
+  </body>
+</html>
